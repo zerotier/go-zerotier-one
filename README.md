@@ -7,4 +7,4 @@ Please read the [GoDoc](https://pkg.go.dev/github.com/zerotier/go-zerotier-one) 
 
 ## LICENSE
 
-MIT
+BSD 3-Clause
