@@ -1,4 +1,4 @@
-module github.com/zerotier/go-zerotier-service
+module github.com/zerotier/go-zerotier-one
 
 go 1.16
 
