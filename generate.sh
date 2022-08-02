@@ -18,4 +18,4 @@ mkdir -p ./${PACKAGE}
 # github.com/deepmap/oapi-codegen/cmd/oapi-codegen
 # note there is an open bug here: https://github.com/deepmap/oapi-codegen/issues/357 related to generation of this code
 
-oapi-codegen -generate types,client -package ${PACKAGE} -o ${PACKAGE}/gen.go https://${HOST}/openapi/${SPEC}v1.json
+oapi-codegen -old-config-style -generate client -package ${PACKAGE} -o ${PACKAGE}/gen.go https://${HOST}/openapi/${SPEC}v1.json
