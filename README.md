@@ -5,6 +5,10 @@ supplied OpenAPI bindings on the [docs](https://docs.zerotier.com) website.
 
 Please read the [GoDoc](https://pkg.go.dev/github.com/zerotier/go-zerotier-one) for more information.
 
+## building
+
+`go generate`
+
 ## LICENSE
 
 BSD 3-Clause
